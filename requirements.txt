@@ -1,0 +1,13 @@
+kagglehub
+numpy
+pandas
+polars
+torch
+scikit-learn
+scipy
+lightgbm
+xgboost
+matplotlib
+sportsdataverse
+pyarrow
+ipykernel

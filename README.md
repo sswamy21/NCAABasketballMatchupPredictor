@@ -18,14 +18,14 @@ This folder contains a notebook that predicts regular-season college basketball 
 
 - Kaggle competition data: "march-machine-learning-mania-2026"
 - sportsdataverse (mbb) for recent matchup imports
-- Local historical spread data: historical_spread_data.csv
+- Local historical spread data: data/historical_spread_data.csv
 
 ## Outputs
 
 - regular_season_model_enhanced.pth (model checkpoint and scalers)
 - matchup_report.html (matchup comparison report)
-- Alltime_Matchups_Converted.csv (converted matchup data)
-- Alltime_Matchups_Team_Box_Score.csv (team box scores)
+- data/Alltime_Matchups_Converted.csv (converted matchup data)
+- data/Alltime_Matchups_Team_Box_Score.csv (team box scores)
 
 ## Quick start
 
@@ -35,5 +35,5 @@ This folder contains a notebook that predicts regular-season college basketball 
 
 ## Notes
 
-- The historical spread lookup uses the closest spread magnitude from historical_spread_data.csv.
+- The historical spread lookup uses the closest spread magnitude from data/historical_spread_data.csv.
 - Win probabilities are derived from the predicted margin using a normal CDF with sigma 11.0.
