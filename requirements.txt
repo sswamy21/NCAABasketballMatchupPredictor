@@ -11,3 +11,5 @@ matplotlib
 sportsdataverse
 pyarrow
 ipykernel
+markdown
+ollama
