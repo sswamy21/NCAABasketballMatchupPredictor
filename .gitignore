@@ -1,9 +1,8 @@
-sportsdataverse-py/
 __pycache__
+sportsdataverse-py/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 .venv/
-matchup_report.html
 *.pth
 .env
 # Large raw datasets (kept locally, not tracked in git)
@@ -11,4 +10,3 @@ data/Final_Matchups_With_Player_Stats.csv
 data/Alltime_Matchups_Schedule.csv
 data/Alltime_Matchups_Team_Box_Score.csv
 data/Alltime_Matchups_Box_Score.csv
-data/Alltime_Matchups_Converted.csv
